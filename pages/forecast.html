@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+    <div class="panel panel-default" ng-repeat="weather in weatherResult.list">
+      <div class="panel-heading">{{toDate(weather.dt)}}</div>
+      <div class="panel-body">Daytime temperature: {{convertTemperature(weather.temp.day)}}&#8451;</div>
+    </div>
+  </div>
+</div>

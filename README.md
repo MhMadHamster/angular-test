@@ -1,2 +1,2 @@
 # angular-test
-angular1.x test
+angular1.x weather forecast SPA
